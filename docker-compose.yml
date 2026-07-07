@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  mongodb:
+    image: mongo:7-jammy
+    container_name: agenticpharma_mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_DATABASE: agenticpharma
+
+volumes:
+  mongo_data:

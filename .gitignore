@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+ingestion/
+*.sas7bdat
+*.zip
+.dockerignore
+deploy_gcp.bat
+mongo_dump/
