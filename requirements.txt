@@ -3,6 +3,7 @@
 
 # Web app
 streamlit==1.35.0
+pillow>=11.0.0
 plotly==5.22.0
 
 # Data
